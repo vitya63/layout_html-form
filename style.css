@@ -3,10 +3,13 @@
 }
 
 label {
-  margin-bottom: 10px;
   display: block;
 }
 
-.input-blocks > label:last-child {
-  margin-bottom: 0;
+label + label {
+  margin-top: 10px;
+}
+
+.radio-label {
+  display: inline;
 }
